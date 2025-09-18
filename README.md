@@ -26,7 +26,6 @@ Học phần trang bị cho người học những kiến thức nền tảng c�
 
 ## 🚀 3. Các chức năng chính và hình ảnh
 
-### [Khoá 16](./docs/projects/K16/README.md)
 
 ## 📝 4. Các bước cài đặt
 
