@@ -79,7 +79,7 @@ Cài Eclipse IDE hoặc IntelliJ IDEA
 
 Tải source code:
 
-git clone https://github.com/username/udp-clock-server-client.git](https://github.com/ApheliosQ/DongHoUDP.git
+git clone https://github.com/ApheliosQ/DongHoUDP.git
 
 2️⃣ Chạy Server
 
