@@ -20,40 +20,55 @@
 </div>
 Xin chào! 👋
 Mình là sinh viên Khoa Công Nghệ Thông Tin, Đại Nam University. Đây là dự án ĐỒNG HỒ SERVER-CLIENT sử dụng giao thức UDP.
+
 # 📖 1. Giới thiệu hệ thống
 
 💡 Mục tiêu
 
-Hiểu và thực hành lập trình mạng với Sockets UDP.
+- Hiểu và thực hành lập trình mạng với Sockets UDP.
 
-Gửi và nhận dữ liệu qua mạng mà không cần kết nối liên tục.
+- Gửi và nhận dữ liệu qua mạng mà không cần kết nối liên tục.
 
-Hiển thị đồng hồ thời gian thực trên Client và hỗ trợ báo thức.
+- Hiển thị đồng hồ thời gian thực trên Client và hỗ trợ báo thức.
 
 ⚙️ Cách hoạt động
 
-Server: lắng nghe yêu cầu từ Client và gửi thời gian hiện tại.
+- Server: lắng nghe yêu cầu từ Client và gửi thời gian hiện tại.
 
-Client: nhận thời gian từ Server, cập nhật đồng hồ và hiển thị.
+- Client: nhận thời gian từ Server, cập nhật đồng hồ và hiển thị.
 
 
 # 🔧 2. Ngôn ngữ lập trình và công nghệ sử dụng
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 
-Java 8 trở lên
+- Java 8 trở lên
 
-IDE gợi ý: Eclipse
+- IDE gợi ý: Eclipse
 
-JDK được cài đặt sẵn và thiết lập biến môi trường JAVA_HOME
-## 🛠️ Công nghệ sử dụng
+- JDK được cài đặt sẵn và thiết lập biến môi trường JAVA_HOME
+### 🛠️ Công nghệ sử dụng
 
-| Công nghệ / Công cụ         | Phiên bản / Loại             | Vai trò trong dự án                                                      |
-|-----------------------------|-----------------------------|-------------------------------------------------------------------------|
-| Java                        | 8 trở lên                    | Ngôn ngữ lập trình chính                                                |
-| UDP (User Datagram Protocol)| -                           | Giao thức mạng để đồng bộ thời gian giữa Server và Client               |
-| Swing                       | Java Swing                  | Xây dựng giao diện đồ họa Client                                         |
-| JTable, JLabel, JButton     | Swing components            | Hiển thị danh sách báo thức, đồng hồ, nút bấm, thông tin                 |
-| Multi-platform              | Java                        | Chạy được trên Windows, Linux, macOS                                     |
+Dự án được phát triển với các công nghệ và kỹ thuật sau:
+
+- **UDP (User Datagram Protocol)**  
+  - Truyền dữ liệu **không cần kết nối liên tục** giữa Client và Server.  
+  - Nhanh, nhẹ, phù hợp cho việc đồng bộ thời gian theo thời gian thực.  
+  - Không đảm bảo thứ tự hay độ tin cậy 100%, nhưng tốc độ cao và đơn giản cho các ứng dụng đồng hồ.
+
+- **Client/Server Architecture**  
+  - **Server**: lắng nghe các yêu cầu từ nhiều Client, gửi thời gian hiện tại.  
+  - **Client**: nhận thời gian từ Server và hiển thị trên giao diện đồng hồ.
+
+- **Multithreading (đa luồng)**  
+  - Server sử dụng **Thread** để quản lý nhiều Client đồng thời.  
+  - Đảm bảo xử lý song song, tránh nghẽn khi nhiều Client kết nối.
+
+- **Java I/O**  
+  - Truyền dữ liệu (chuỗi ký tự, thời gian, thông tin báo thức) giữa Client và Server.
+
+- **IDE**  
+  - Hỗ trợ viết, biên dịch và debug chương trình Java.  
+  - Gợi ý: **Eclipse**
 
 # 🚀 3. Các chức năng chính và hình ảnh
 | Phần mềm       | Chức năng                                                    |
@@ -82,35 +97,34 @@ JDK được cài đặt sẵn và thiết lập biến môi trường JAVA_HOME
 # 📝 4. Hướng dẫn cài đặt & chạy dự án trên Eclipse
 1️⃣ Chuẩn bị
 
-Cài Java JDK 8+
+- Cài Java JDK 8+
 
-Cài Eclipse IDE hoặc IntelliJ IDEA
+- Cài Eclipse IDE hoặc IntelliJ IDEA
 
-Tải source code:
+- Tải source code:
 
-git clone https://github.com/ApheliosQ/DongHoUDP.git
+    git clone https://github.com/ApheliosQ/DongHoUDP.git
 
 2️⃣ Chạy Server
 
-Mở Eclipse → Import > Existing Projects into Workspace
+- Mở Eclipse → Import > Existing Projects into Workspace
 
-Mở file TimeServer.java trong package udpclock
+- Mở file TimeServer.java trong package udpclock
 
-Kiểm tra SERVER_PORT (mặc định: 12345)
+- Kiểm tra SERVER_PORT (mặc định: 12345)
 
-Chạy chương trình (Run as > Java Application)
-Server bắt đầu lắng nghe các Client.
+- Chạy chương trình (Run as > Java Application)
+- Server bắt đầu lắng nghe các Client.
 
 3️⃣ Chạy Client
 
-Mở file TimeClient.java
+- Mở file TimeClient.java
 
-Chỉnh SERVER_ADDRESS và SERVER_PORT đúng với Server
+- Chỉnh SERVER_ADDRESS và SERVER_PORT đúng với Server
 
-Chạy chương trình (Run as > Java Application)
-Client nhận thời gian từ Server và hiển thị đồng hồ.
+- Chạy chương trình (Run as > Java Application)
+- Client nhận thời gian từ Server và hiển thị đồng hồ.
 # 📬 5. Liên hệ 
-
 
 
 💻 **Người thực hiện:** <span style="color:#1E90FF"><b>Đỗ Hoàng Quý</b></span>  
