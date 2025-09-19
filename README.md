@@ -46,6 +46,16 @@ Java 8 trở lên
 IDE gợi ý: Eclipse
 
 JDK được cài đặt sẵn và thiết lập biến môi trường JAVA_HOME
+# 🛠️ Công nghệ sử dụng
+
+| Công nghệ / Công cụ         | Phiên bản / Loại             | Vai trò trong dự án                                                      |
+|-----------------------------|-----------------------------|-------------------------------------------------------------------------|
+| Java                        | 8 trở lên                    | Ngôn ngữ lập trình chính                                                |
+| UDP (User Datagram Protocol)| -                           | Giao thức mạng để đồng bộ thời gian giữa Server và Client               |
+| Swing                       | Java Swing                  | Xây dựng giao diện đồ họa Client                                         |
+| JTable, JLabel, JButton     | Swing components            | Hiển thị danh sách báo thức, đồng hồ, nút bấm, thông tin                 |
+| Multi-platform              | Java                        | Chạy được trên Windows, Linux, macOS                                     |
+
 # 🚀 3. Các chức năng chính và hình ảnh
 | Phần mềm       | Chức năng                                                    |
 | -------------- | ------------------------------------------------------------ |
