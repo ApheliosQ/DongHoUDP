@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    ĐỒNG HỒ SERVER - CLIENT (ĐỒNG BỘ THỜI GIAN)
+    ĐỒNG HỒ SERVER - CLIENT
 </h2>
 <div align="center">
     <p align="center">
