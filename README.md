@@ -18,10 +18,9 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-
-# 📖 1. Giới thiệu hệ thống
 Xin chào! 👋
 Mình là sinh viên Khoa Công Nghệ Thông Tin, Đại Nam University. Đây là dự án ĐỒNG HỒ SERVER-CLIENT sử dụng giao thức UDP.
+# 📖 1. Giới thiệu hệ thống
 
 💡 Mục tiêu
 
@@ -38,7 +37,7 @@ Server: lắng nghe yêu cầu từ Client và gửi thời gian hiện tại.
 Client: nhận thời gian từ Server, cập nhật đồng hồ và hiển thị.
 
 
-# 🔧 2. Ngôn ngữ lập trình sử dụng
+# 🔧 2. Ngôn ngữ lập trình và công nghệ sử dụng
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 
 Java 8 trở lên
@@ -46,7 +45,7 @@ Java 8 trở lên
 IDE gợi ý: Eclipse
 
 JDK được cài đặt sẵn và thiết lập biến môi trường JAVA_HOME
-# 🛠️ Công nghệ sử dụng
+## 🛠️ Công nghệ sử dụng
 
 | Công nghệ / Công cụ         | Phiên bản / Loại             | Vai trò trong dự án                                                      |
 |-----------------------------|-----------------------------|-------------------------------------------------------------------------|
