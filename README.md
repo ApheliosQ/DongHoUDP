@@ -21,7 +21,7 @@
 
 # 📖 1. Giới thiệu hệ thống
 Xin chào! 👋
-Mình là sinh viên Khoa Công Nghệ Thông Tin, Đại Nam University. Đây là dự án ĐỒNG HỒ SERVER-CLIENT sử dụng giao thức UDP, mục tiêu đồng bộ thời gian giữa nhiều máy tính trong mạng.
+Mình là sinh viên Khoa Công Nghệ Thông Tin, Đại Nam University. Đây là dự án ĐỒNG HỒ SERVER-CLIENT sử dụng giao thức UDP.
 
 💡 Mục tiêu
 
